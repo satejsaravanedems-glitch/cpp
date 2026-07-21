@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-    int n;
-    unsigned long long factorial=1;
-    cout<<"enter a positive integer:";
-    cin>>n;
-     for (int i = 1; i <= n; ++i) {
-        factorial *= i;
-        cout<< "Factorial of " << n << " = " << factorial << std::endl;
+    int a;
+    int fact=1;
+    cin>>a;
+    for(int i=1;i<=a;i++){
+        fact=fact*i;
     }
+    cout<<fact;
+    
 }
